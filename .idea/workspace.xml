@@ -2,23 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818cb462-ae5c-483a-a3b0-c3879805e4ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/api/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/api/config/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/api/runtime/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/api/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/api/models/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/api/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/api/controllers/SmsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/api/config/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/frontend/views/layouts/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/api/config/params.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/api/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sms_spammer_server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/ini_file.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ini_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/api/config/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/api/config/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/api/config/params.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/api/controllers/SmsController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/api/models/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/api/runtime/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/common/tests/templates/fixtures/tbl_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/composer.phar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/fixtures/data/tbl_user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/api/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/api/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/api/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/api/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/frontend/css/.htaccess" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/backend/favicon.ico" afterPath="$PROJECT_DIR$/web/backend/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/frontend/favicon.ico" afterPath="$PROJECT_DIR$/web/frontend/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/.gitignore" afterPath="$PROJECT_DIR$/protected/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/backend/.gitignore" afterPath="$PROJECT_DIR$/web/backend/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/frontend/.gitignore" afterPath="$PROJECT_DIR$/web/frontend/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/_pages/AboutPage.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/_pages/AboutPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/widgets/Alert.php" afterPath="$PROJECT_DIR$/protected/frontend/widgets/Alert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/assets/AppAsset.php" afterPath="$PROJECT_DIR$/protected/backend/assets/AppAsset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/assets/AppAsset.php" afterPath="$PROJECT_DIR$/protected/frontend/assets/AppAsset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/_helpers/CodeHelper.php" afterPath="$PROJECT_DIR$/protected/backend/tests/_helpers/CodeHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/_helpers/CodeHelper.php" afterPath="$PROJECT_DIR$/protected/common/tests/_helpers/CodeHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/tests/_helpers/CodeHelper.php" afterPath="$PROJECT_DIR$/protected/console/tests/_helpers/CodeHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/_helpers/CodeHelper.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/_helpers/CodeHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/acceptance/ContactCept.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/acceptance/ContactCept.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/functional/ContactCept.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/functional/ContactCept.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/models/ContactForm.php" afterPath="$PROJECT_DIR$/protected/frontend/models/ContactForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/models/ContactFormTest.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/unit/models/ContactFormTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/_pages/ContactPage.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/_pages/ContactPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/unit/DbTestCase.php" afterPath="$PROJECT_DIR$/protected/backend/tests/unit/DbTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/unit/DbTestCase.php" afterPath="$PROJECT_DIR$/protected/common/tests/unit/DbTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/tests/unit/DbTestCase.php" afterPath="$PROJECT_DIR$/protected/console/tests/unit/DbTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/DbTestCase.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/unit/DbTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/_helpers/FixtureHelper.php" afterPath="$PROJECT_DIR$/protected/common/tests/_helpers/FixtureHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/models/LoginForm.php" afterPath="$PROJECT_DIR$/protected/common/models/LoginForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/unit/models/LoginFormTest.php" afterPath="$PROJECT_DIR$/protected/common/tests/unit/models/LoginFormTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/_pages/LoginPage.php" afterPath="$PROJECT_DIR$/protected/common/tests/_pages/LoginPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/models/PasswordResetRequestForm.php" afterPath="$PROJECT_DIR$/protected/frontend/models/PasswordResetRequestForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/models/PasswordResetRequestFormTest.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/unit/models/PasswordResetRequestFormTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/README.md" afterPath="$PROJECT_DIR$/protected/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/models/ResetPasswordForm.php" afterPath="$PROJECT_DIR$/protected/frontend/models/ResetPasswordForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/models/ResetPasswordFormTest.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/unit/models/ResetPasswordFormTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/acceptance/SignupCest.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/acceptance/SignupCest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/functional/SignupCest.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/functional/SignupCest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/models/SignupForm.php" afterPath="$PROJECT_DIR$/protected/frontend/models/SignupForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/models/SignupFormTest.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/unit/models/SignupFormTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/_pages/SignupPage.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/_pages/SignupPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/backend/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/frontend/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/unit/TestCase.php" afterPath="$PROJECT_DIR$/protected/backend/tests/unit/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/unit/TestCase.php" afterPath="$PROJECT_DIR$/protected/common/tests/unit/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/tests/unit/TestCase.php" afterPath="$PROJECT_DIR$/protected/console/tests/unit/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/TestCase.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/unit/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/_helpers/TestHelper.php" afterPath="$PROJECT_DIR$/protected/backend/tests/_helpers/TestHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/_helpers/TestHelper.php" afterPath="$PROJECT_DIR$/protected/common/tests/_helpers/TestHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/tests/_helpers/TestHelper.php" afterPath="$PROJECT_DIR$/protected/console/tests/_helpers/TestHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/_helpers/TestHelper.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/_helpers/TestHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/models/User.php" afterPath="$PROJECT_DIR$/protected/common/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/fixtures/UserFixture.php" afterPath="$PROJECT_DIR$/protected/common/tests/fixtures/UserFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/_helpers/WebHelper.php" afterPath="$PROJECT_DIR$/protected/backend/tests/_helpers/WebHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/_helpers/WebHelper.php" afterPath="$PROJECT_DIR$/protected/common/tests/_helpers/WebHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/tests/_helpers/WebHelper.php" afterPath="$PROJECT_DIR$/protected/console/tests/_helpers/WebHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/_helpers/WebHelper.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/_helpers/WebHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/_config.php" afterPath="$PROJECT_DIR$/protected/backend/tests/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/acceptance/_config.php" afterPath="$PROJECT_DIR$/protected/backend/tests/acceptance/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/functional/_config.php" afterPath="$PROJECT_DIR$/protected/backend/tests/functional/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/unit/_config.php" afterPath="$PROJECT_DIR$/protected/backend/tests/unit/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/_config.php" afterPath="$PROJECT_DIR$/protected/common/tests/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/unit/_config.php" afterPath="$PROJECT_DIR$/protected/common/tests/unit/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/tests/_config.php" afterPath="$PROJECT_DIR$/protected/console/tests/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/tests/unit/_config.php" afterPath="$PROJECT_DIR$/protected/console/tests/unit/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/_config.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/acceptance/_config.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/acceptance/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/functional/_config.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/functional/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/_config.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/unit/_config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/acceptance/_console.php" afterPath="$PROJECT_DIR$/protected/backend/tests/acceptance/_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/functional/_console.php" afterPath="$PROJECT_DIR$/protected/backend/tests/functional/_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/unit/_console.php" afterPath="$PROJECT_DIR$/protected/backend/tests/unit/_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/unit/_console.php" afterPath="$PROJECT_DIR$/protected/common/tests/unit/_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/tests/unit/_console.php" afterPath="$PROJECT_DIR$/protected/console/tests/unit/_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/acceptance/_console.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/acceptance/_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/functional/_console.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/functional/_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/unit/_console.php" afterPath="$PROJECT_DIR$/protected/frontend/tests/unit/_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/site/about.php" afterPath="$PROJECT_DIR$/protected/frontend/views/site/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/tests/acceptance.suite.yml" afterPath="$PROJECT_DIR$/protected/backend/tests/acceptance.suite.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/tests/acceptance.suite.yml" afterPath="$PROJECT_DIR$/protected/frontend/tests/acceptance.suite.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/composer.lock" afterPath="$PROJECT_DIR$/protected/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/site/contact.php" afterPath="$PROJECT_DIR$/protected/frontend/views/site/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/views/site/error.php" afterPath="$PROJECT_DIR$/protected/backend/views/site/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/site/error.php" afterPath="$PROJECT_DIR$/protected/frontend/views/site/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/mail/layouts/html.php" afterPath="$PROJECT_DIR$/protected/common/mail/layouts/html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/dev/backend/web/index-test.php" afterPath="$PROJECT_DIR$/protected/environments/dev/backend/web/index-test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/dev/frontend/web/index-test.php" afterPath="$PROJECT_DIR$/protected/environments/dev/frontend/web/index-test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/backend/index-test.php" afterPath="$PROJECT_DIR$/web/backend/index-test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/frontend/index-test.php" afterPath="$PROJECT_DIR$/web/frontend/index-test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/views/site/index.php" afterPath="$PROJECT_DIR$/protected/backend/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/index.php" afterPath="$PROJECT_DIR$/protected/environments/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/dev/backend/web/index.php" afterPath="$PROJECT_DIR$/protected/environments/dev/backend/web/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/dev/frontend/web/index.php" afterPath="$PROJECT_DIR$/protected/environments/dev/frontend/web/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/prod/backend/web/index.php" afterPath="$PROJECT_DIR$/protected/environments/prod/backend/web/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/prod/frontend/web/index.php" afterPath="$PROJECT_DIR$/protected/environments/prod/frontend/web/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/site/index.php" afterPath="$PROJECT_DIR$/protected/frontend/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/init" afterPath="$PROJECT_DIR$/protected/init" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/tests/fixtures/data/init_login.php" afterPath="$PROJECT_DIR$/protected/common/tests/fixtures/data/init_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/views/site/login.php" afterPath="$PROJECT_DIR$/protected/backend/views/site/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/site/login.php" afterPath="$PROJECT_DIR$/protected/frontend/views/site/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/migrations/m130524_201442_init.php" afterPath="$PROJECT_DIR$/protected/console/migrations/m130524_201442_init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/dev/backend/config/main-local.php" afterPath="$PROJECT_DIR$/protected/environments/dev/backend/config/main-local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/dev/common/config/main-local.php" afterPath="$PROJECT_DIR$/protected/environments/dev/common/config/main-local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/dev/frontend/config/main-local.php" afterPath="$PROJECT_DIR$/protected/environments/dev/frontend/config/main-local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/environments/prod/common/config/main-local.php" afterPath="$PROJECT_DIR$/protected/environments/prod/common/config/main-local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/config/main.php" afterPath="$PROJECT_DIR$/protected/backend/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/backend/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/config/main.php" afterPath="$PROJECT_DIR$/protected/common/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/config/main.php" afterPath="$PROJECT_DIR$/protected/console/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/config/main.php" afterPath="$PROJECT_DIR$/protected/frontend/config/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/frontend/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/backend/config/params.php" afterPath="$PROJECT_DIR$/protected/backend/config/params.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/common/config/params.php" afterPath="$PROJECT_DIR$/protected/common/config/params.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/console/config/params.php" afterPath="$PROJECT_DIR$/protected/console/config/params.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/config/params.php" afterPath="$PROJECT_DIR$/protected/frontend/config/params.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/site/requestPasswordResetToken.php" afterPath="$PROJECT_DIR$/protected/frontend/views/site/requestPasswordResetToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/site/resetPassword.php" afterPath="$PROJECT_DIR$/protected/frontend/views/site/resetPassword.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/frontend/views/site/signup.php" afterPath="$PROJECT_DIR$/protected/frontend/views/site/signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sms_spammer_server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,44 +157,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="robots.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/api/robots.txt">
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/common/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ini_file.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ini_file.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.9300971" vertical-offset="259" max-vertical-offset="846">
+            <state line="66" column="10" selection-start="2075" selection-end="2075" vertical-scroll-proportion="-38.592594" vertical-offset="146" max-vertical-offset="1350">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/api/.htaccess">
+        <entry file="file://$PROJECT_DIR$/web/backend/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5382">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="4759" max-vertical-offset="5310">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/api/favicon.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/frontend/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-local.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/common/config/main-local.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.59417474" vertical-offset="0" max-vertical-offset="515">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ini_file.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/ini_file.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="846">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/api/index.php">
+        <entry file="file://$PROJECT_DIR$/web/backend/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="315" selection-end="315" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="432">
+            <state line="11" column="36" selection-start="514" selection-end="514" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-test.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/backend/index-test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="54" selection-start="550" selection-end="550" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/frontend/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="49" selection-start="595" selection-end="595" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -98,20 +243,26 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/ini_file.php" />
-        <option value="$PROJECT_DIR$/protected/common/config/main.php" />
-        <option value="$PROJECT_DIR$/protected/common/config/main-local.php" />
         <option value="$PROJECT_DIR$/protected/api/controllers/SmsController.php" />
-        <option value="$PROJECT_DIR$/protected/api/config/main.php" />
         <option value="$PROJECT_DIR$/web/api/index.php" />
         <option value="$PROJECT_DIR$/web/api/index-test.php" />
+        <option value="$PROJECT_DIR$/protected/backend/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/api/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/frontend/config/main.php" />
+        <option value="$PROJECT_DIR$/advanced/common/config/main-local.php" />
+        <option value="$PROJECT_DIR$/protected/ini_file.php" />
+        <option value="$PROJECT_DIR$/web/backend/index.php" />
+        <option value="$PROJECT_DIR$/web/backend/index-test.php" />
+        <option value="$PROJECT_DIR$/web/frontend/index.php" />
+        <option value="$PROJECT_DIR$/protected/common/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/common/config/main-local.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
-    <option name="width" value="1360" />
-    <option name="height" value="714" />
+    <option name="width" value="1656" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -139,7 +290,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,19 +298,107 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sms_spammer_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="web.server" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/protected" />
       <recent name="$PROJECT_DIR$/web/api" />
       <recent name="$PROJECT_DIR$/protected/api" />
       <recent name="$PROJECT_DIR$/protected/frontend/views/layouts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
   <component name="RunManager">
@@ -195,28 +433,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1360" height="714" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1656" height="976" extended-state="5" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291714" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -236,173 +475,58 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/protected/ini_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="355" selection-end="355" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/backend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="36" selection-start="514" selection-end="514" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/backend/index-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="54" selection-start="550" selection-end="550" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/frontend/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
+        <state line="12" column="49" selection-start="595" selection-end="595" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="414">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/index-test.php">
+    <entry file="file://$PROJECT_DIR$/web/backend/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/common/config/main-local.php">
+    <entry file="file://$PROJECT_DIR$/web/frontend/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="60" selection-start="132" selection-end="132" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/common/config/aliases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/common/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/backend/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/backend/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/backend/config/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/backend/config/params-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/backend/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/vendor/yiisoft/yii2/rbac/schema-mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="1778" selection-end="1778" vertical-scroll-proportion="-19.24" vertical-offset="473" max-vertical-offset="1062">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/backend/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="1703" selection-end="1703" vertical-scroll-proportion="-17.74074" vertical-offset="727" max-vertical-offset="1314">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/frontend/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="61" selection-start="421" selection-end="421" vertical-scroll-proportion="-9.333333" vertical-offset="0" max-vertical-offset="1314">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/api/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/api/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/api/config/params-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="162">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/common/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="1676" selection-end="1909" vertical-scroll-proportion="-13.259259" vertical-offset="758" max-vertical-offset="1404">
+        <state line="66" column="10" selection-start="2075" selection-end="2075" vertical-scroll-proportion="-38.592594" vertical-offset="146" max-vertical-offset="1350">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/api/config/main.php">
+    <entry file="file://$PROJECT_DIR$/protected/common/config/main-local.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="38" selection-start="1053" selection-end="1053" vertical-scroll-proportion="-13.740741" vertical-offset="367" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/api/controllers/SmsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="148" selection-end="148" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/backend/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/api/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5382">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/api/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/api/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="315" selection-end="315" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/api/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ini_file.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.9300971" vertical-offset="259" max-vertical-offset="846">
+        <state line="17" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.59417474" vertical-offset="0" max-vertical-offset="515">
           <folding />
         </state>
       </provider>

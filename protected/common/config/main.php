@@ -1,22 +1,22 @@
 <?php
 return [
-	'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
-	'extensions' => require(__DIR__ . '/../../vendor/yiisoft/extensions.php'),
-    'preload' => ['debug'],
+    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
+    'extensions' => require(__DIR__ . '/../../vendor/yiisoft/extensions.php'),
+    'bootstrap' => ['debug'],
     'modules' => [
         'debug' => [
             'class'=>'yii\debug\Module',
-            'allowedIPs' => ['127.0.0.1', '::1', '192.168.0.*', '192.168.0.19', '82.228.251.16', '192.168.0.*', '*'] // adjust this to your needs
+            'allowedIPs' => [ '82.228.251.16'] // adjust this to your needs
         ],
         'gii' => [
             'class' => 'yii\gii\Module',
-            'allowedIPs' => ['127.0.0.1', '::1', '192.168.0.*', '192.168.0.19'] // adjust this to your needs
+            'allowedIPs' => ['82.228.251.16'] // adjust this to your needs
         ],
     ],
-	'components' => [
-		'cache' => [
-			'class' => 'yii\caching\ApcCache',
-		],
+    'components' => [
+        'cache' => [
+            'class' => 'yii\caching\ApcCache',
+        ],
 
         'errorHandler' => [
             'errorAction' => 'site/error'
@@ -51,21 +51,19 @@ return [
         ],
 
 
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'enableStrictParsing' => false,
-            'suffix' => '.sms',
-            'rules' => [
+//        'urlManager' => [
+         //   'enablePrettyUrl' => true,
+  //          'showScriptName' => false,
+    //        'enableStrictParsing' => false,
+      ///      'suffix' => '.sms',
+       //     'rules' => [
 
-            ],
-        ],
+       //     ],
+       // ],
 
         'request'         => [
             'enableCsrfValidation'   => true,
             'enableCookieValidation' => true,
         ],
-
-
-	],
+    ],
 ];

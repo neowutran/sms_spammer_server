@@ -1,32 +1,41 @@
 <?php
 $params = array_merge(
-	require(__DIR__ . '/../../common/config/params.php'),
-	require(__DIR__ . '/../../common/config/params-local.php'),
-	require(__DIR__ . '/params.php'),
-	require(__DIR__ . '/params-local.php')
+    require(__DIR__ . '/../../common/config/params.php'),
+    require(__DIR__ . '/../../common/config/params-local.php'),
+    require(__DIR__ . '/params.php'),
+    require(__DIR__ . '/params-local.php')
 );
 
 return [
-	'id' => 'app-frontend',
-	'basePath' => dirname(__DIR__),
-	'controllerNamespace' => 'frontend\controllers',
-	'components' => [
-        'assetManager' => [
-            'linkAssets' => true,
-           // 'basePath' => PROJECT_STATIC_ROOT."frontend/assets",
-           // 'baseUrl' => PROJECT_STATIC_URL.'frontend/assets',
+    'id' => 'app-frontend',
+    'basePath' => dirname(__DIR__),
+    'bootstrap' => ['log'],
+    'controllerNamespace' => 'frontend\controllers',
+    'components' => [
+        'user' => [
+            'identityClass' => 'common\models\User',
+            'enableAutoLogin' => true,
         ],
-        /*
-        'view' => [
-            'theme' => [
-                'pathMap' => ['@app/views' => '@webroot/themes/neowutran'],
-                'baseUrl' => '@web/themes/basic',
-                'basePath' => ''
+        'log' => [
+            'traceLevel' => YII_DEBUG ? 3 : 0,
+            'targets' => [
+                [
+                    'class' => 'yii\log\FileTarget',
+                    'levels' => ['error', 'warning'],
+                ],
             ],
         ],
-        */
-
+        'errorHandler' => [
+            'errorAction' => 'site/error',
+        ],
+	'urlManager' => [
+    		'enablePrettyUrl' => true,
+    		'enableStrictParsing' => false,
+    		'showScriptName' => false,
+    		'rules' => [
+        		['class' => 'yii\rest\UrlRule', 'controller' => 'api'],
+    		],
+	]
     ],
-
-	'params' => $params,
+    'params' => $params,
 ];

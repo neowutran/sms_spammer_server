@@ -1,6 +1,6 @@
 <?php
 
-define("PROJECT_ROOT", "/projects/smsspammer/");
+define("PROJECT_ROOT", "/projects/sms/");
 define("ERROR_LOG_FILE",PROJECT_ROOT."log/error.log");
 define("SESSION_PATH", PROJECT_ROOT."session/");
 define("PHP_FIREWALL_LOG_FILE", PROJECT_ROOT."log/firewall.log");
