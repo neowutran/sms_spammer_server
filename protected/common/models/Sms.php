@@ -14,6 +14,10 @@ use Yii;
  */
 class Sms extends \yii\db\ActiveRecord
 {
+    public function __construct() {
+        parent::__construct();
+        $this->status = "Pending";
+    }
     /**
      * @inheritdoc
      */
@@ -28,7 +32,7 @@ class Sms extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['recipient', 'message', 'status'], 'required'],
+            [['recipient', 'message'], 'required'],
             [['status'], 'string'],
             [['recipient'], 'string', 'max' => 15],
             [['message'], 'string', 'max' => 160]

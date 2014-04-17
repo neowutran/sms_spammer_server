@@ -6,11 +6,11 @@ return [
     'modules' => [
         'debug' => [
             'class'=>'yii\debug\Module',
-            'allowedIPs' => [ '82.228.251.16'] // adjust this to your needs
+            'allowedIPs' => [ '82.228.251.16','46.193.135.194'] // adjust this to your needs
         ],
         'gii' => [
             'class' => 'yii\gii\Module',
-            'allowedIPs' => ['82.228.251.16'] // adjust this to your needs
+            'allowedIPs' => ['82.228.251.16','46.193.135.194'] // adjust this to your needs 46.193.135.194
         ],
     ],
     'components' => [
