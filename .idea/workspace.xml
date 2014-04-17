@@ -53,7 +53,7 @@
       <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/common/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="6" selection-start="552" selection-end="552" vertical-scroll-proportion="0.5072464" vertical-offset="0" max-vertical-offset="1125">
+            <state line="13" column="10" selection-start="545" selection-end="545" vertical-scroll-proportion="0.4710145" vertical-offset="0" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -326,7 +326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/common/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="552" selection-end="552" vertical-scroll-proportion="0.5072464" vertical-offset="0" max-vertical-offset="1125">
+        <state line="13" column="10" selection-start="545" selection-end="545" vertical-scroll-proportion="0.4710145" vertical-offset="0" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
